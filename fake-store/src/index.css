@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1500px; /* Set a maximum width for the container if needed */
+    margin: 0 auto; /* Center the container horizontally */
+}
